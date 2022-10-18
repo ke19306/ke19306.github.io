@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+ <html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+    <title>Portfolio</title>
+
+
+    <link rel="stylesheet" href="index.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.17.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.17.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.12.2"></script>
+</head>
+
+
+
+<body>
+
+    <div class="myWeek1">
+        <h1>William C-J</h1>
+        <h3>Homework Portfolio</h3>
+        <h3>Week 1</h3>
+
+        <h3>BitcoinPrice</h3>
+        <p>The first chart tracks the price of Bitcoin
+        <div class="chart" id="Chart1"></div>
+
+        <h3>EtherumPrice</h3>
+        <p>My second chart tracks the price of Etherum</p>
+        <div class="chart" id="Chart2"></div>
+
+
+        <h3>Week2</h3>
+        <h3>IMF Lending</h3>
+        <div class="chart" id="IMFChart1"></div>
+</body>
+
+
+<script>
+    var myChart1 = "chart1_UKBitcoinPrice.json";
+    var myChart2 = "chart4_EtherumPrice.json";
+    var myIMFChart1 ="IMFChart1.json"
+
+
+    vegaEmbed('#Chart1', myChart1);
+    vegaEmbed('#Chart2', myChart2);
+    vegaEmbed('#IMFChart1', myIMFChart1);
+
+</script>
+
+</html>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
