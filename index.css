@@ -1,0 +1,59 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap');
+
+body{
+    background-color: rgba(130, 208, 214, 0.689);
+ }
+
+
+/* Choose the appearance of the tags, h1, h3 and p: */
+h1, h3, p{
+    color:rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+    
+.myWeek1{
+    margin: auto;
+    max-width: 600px;
+    background-color: rgb(30, 135, 173);
+
+      
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(5, 93, 161);
+}
+
+
+/* Set the apperance of the class, chart */
+.chart{
+    margin-left: 7.5em;
+    background-color: rgb(30, 135, 173);
+    width:375px;
+    border-width: 4px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(30, 135, 173);    
+}
+
+#link1{
+    margin-left:4em;
+    
+
+    padding:1px;
+     font-family: 'Courier New', Courier, monospace;
+    font-weight:700;
+    color:rgb(255, 255, 255);
+    
+    text-decoration: none;
+
+    animation: border-pulsate1 4s infinite;
+}
+
+#link1:hover{
+
+    background-color: rgba(0, 47, 167, .8);
+    
+}
