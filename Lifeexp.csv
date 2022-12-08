@@ -1,0 +1,700 @@
+Country,Gender,Avg.Life_expectancy
+Monaco,total,86.895
+Monaco,male,85.055
+Monaco,female,88.881
+Macau,total,85.377
+Macau,male,82.753
+Macau,female,87.98
+Japan,total,84.82
+Japan,male,81.782
+Japan,female,87.832
+Liechtenstein,total,84.656
+Liechtenstein,male,83.019
+Liechtenstein,female,86.129
+Hong Kong,total,84.315
+Hong Kong,male,81.754
+Hong Kong,female,86.893
+Switzerland,total,84.255
+Switzerland,male,82.484
+Switzerland,female,85.932
+Singapore,total,84.133
+Singapore,male,81.981
+Singapore,female,86.295
+Italy,total,84.057
+Italy,male,81.974
+Italy,female,86.0
+Vatican City,total,84.035
+Vatican City,male,82.002
+Vatican City,female,85.929
+South Korea,total,84.024
+South Korea,male,80.695
+South Korea,female,87.101
+Spain,total,83.912
+Spain,male,81.2
+Spain,female,86.549
+Malta,total,83.704
+Malta,male,81.644
+Malta,female,85.703
+Australia,total,83.579
+Australia,male,81.708
+Australia,female,85.453
+Andorra,total,83.552
+Andorra,male,81.43
+Andorra,female,85.838
+French Polynesia,total,83.55
+French Polynesia,male,81.329
+French Polynesia,female,85.977
+Sweden,total,83.505
+Sweden,male,81.902
+Sweden,female,85.092
+San Marino,total,83.433
+San Marino,male,82.036
+San Marino,female,84.733
+Norway,total,83.393
+Norway,male,81.718
+Norway,female,85.055
+Martinique,total,83.305
+Martinique,male,80.275
+Martinique,female,85.966
+France,total,83.229
+France,male,80.356
+France,female,85.967
+New Zealand,total,83.006
+New Zealand,male,81.251
+New Zealand,female,84.726
+Canada,total,82.847
+Canada,male,80.868
+Canada,female,84.797
+Gibraltar,total,82.83
+Gibraltar,male,80.93
+Gibraltar,female,84.691
+Iceland,total,82.815
+Iceland,male,81.382
+Iceland,female,84.288
+Guernsey,total,82.782
+Guernsey,male,81.103
+Guernsey,female,84.418
+Ireland,total,82.716
+Ireland,male,81.017
+Ireland,female,84.412
+Reunion,total,82.612
+Reunion,male,79.739
+Reunion,female,85.4
+Israel,total,82.601
+Israel,male,80.625
+Israel,female,84.508
+Luxembourg,total,82.591
+Luxembourg,male,80.445
+Luxembourg,female,84.77
+Netherlands,total,82.451
+Netherlands,male,80.944
+Netherlands,female,83.904
+Austria,total,82.412
+Austria,male,80.15
+Austria,female,84.6
+Finland,total,82.351
+Finland,male,79.792
+Finland,female,84.886
+Belgium,total,82.293
+Belgium,male,80.16
+Belgium,female,84.367
+Portugal,total,82.24
+Portugal,male,79.308
+Portugal,female,84.93
+United Kingdom,total,82.156
+United Kingdom,male,80.439
+United Kingdom,female,83.834
+Slovenia,total,82.133
+Slovenia,male,79.626
+Slovenia,female,84.616
+Cyprus,total,81.889
+Cyprus,male,80.068
+Cyprus,female,83.673
+Denmark,total,81.882
+Denmark,male,79.958
+Denmark,female,83.802
+Bermuda,total,81.571
+Bermuda,male,78.435
+Bermuda,female,84.507
+Qatar,total,81.559
+Qatar,male,80.626
+Qatar,female,83.101
+Taiwan,total,81.267
+Taiwan,male,78.128
+Taiwan,female,84.539
+New Caledonia,total,80.998
+New Caledonia,male,77.525
+New Caledonia,female,84.612
+Germany,total,80.989
+Germany,male,78.512
+Germany,female,83.487
+Jersey,total,80.898
+Jersey,male,78.61
+Jersey,female,83.191
+Maldives,total,80.839
+Maldives,male,80.065
+Maldives,female,81.844
+Guadeloupe,total,80.799
+Guadeloupe,male,77.251
+Guadeloupe,female,83.896
+Isle of Man,total,80.762
+Isle of Man,male,78.833
+Isle of Man,female,82.732
+Saint Barthelemy,total,80.643
+Saint Barthelemy,male,77.595
+Saint Barthelemy,female,83.733
+Greece,total,80.614
+Greece,male,78.022
+Greece,female,83.317
+Saint Martin,total,80.55
+Saint Martin,male,77.502
+Saint Martin,female,83.658
+Kuwait,total,80.264
+Kuwait,male,78.878
+Kuwait,female,82.752
+Wallis and Futuna,total,80.015
+Wallis and Futuna,male,79.031
+Wallis and Futuna,female,80.99
+Puerto Rico,total,79.72
+Puerto Rico,male,75.578
+Puerto Rico,female,83.897
+Thailand,total,79.68
+Thailand,male,75.473
+Thailand,female,83.929
+Chile,total,79.519
+Chile,male,77.156
+Chile,female,81.877
+Bahrain,total,79.246
+Bahrain,male,78.242
+Bahrain,female,80.497
+Falkland Islands,total,79.243
+Falkland Islands,male,77.358
+Falkland Islands,female,81.236
+Croatia,total,79.236
+Croatia,male,76.415
+Croatia,female,82.0
+Antigua and Barbuda,total,79.236
+Antigua and Barbuda,male,76.507
+Antigua and Barbuda,female,81.645
+United Arab Emirates,total,79.196
+United Arab Emirates,male,77.72
+United Arab Emirates,female,81.412
+Estonia,total,79.155
+Estonia,male,74.983
+Estonia,female,82.987
+Faroe Islands,total,78.897
+Faroe Islands,male,77.312
+Faroe Islands,female,80.701
+China,total,78.587
+China,male,75.963
+China,female,81.343
+Turkey,total,78.475
+Turkey,male,75.38
+Turkey,female,81.495
+Guam,total,78.33
+Guam,male,74.838
+Guam,female,82.046
+United States,total,78.203
+United States,male,75.479
+United States,female,81.015
+Cuba,total,78.155
+Cuba,male,75.793
+Cuba,female,80.565
+Czech Republic,total,78.129
+Czech Republic,male,75.106
+Czech Republic,female,81.22
+Uruguay,total,78.0
+Uruguay,male,74.147
+Uruguay,female,81.685
+Saudi Arabia,total,77.905
+Saudi Arabia,male,76.666
+Saudi Arabia,female,79.525
+Ecuador,total,77.894
+Ecuador,male,75.313
+Ecuador,female,80.481
+Barbados,total,77.706
+Barbados,male,75.677
+Barbados,female,79.581
+Saint Pierre and Miquelon,total,77.608
+Saint Pierre and Miquelon,male,74.008
+Saint Pierre and Miquelon,female,81.693
+Northern Mariana Islands,total,77.471
+Northern Mariana Islands,male,75.863
+Northern Mariana Islands,female,79.459
+French Guiana,total,77.452
+French Guiana,male,74.763
+French Guiana,female,80.32
+Anguilla,total,77.442
+Anguilla,male,74.136
+Anguilla,female,81.156
+Costa Rica,total,77.32
+Costa Rica,male,74.762
+Costa Rica,female,80.036
+Algeria,total,77.129
+Algeria,male,75.853
+Algeria,female,78.457
+Poland,total,76.996
+Poland,male,73.233
+Poland,female,80.796
+Montenegro,total,76.845
+Montenegro,male,73.48
+Montenegro,female,80.262
+Albania,total,76.833
+Albania,male,74.502
+Albania,female,79.472
+Panama,total,76.826
+Panama,male,73.726
+Panama,female,80.091
+Curacao,total,76.651
+Curacao,male,72.698
+Curacao,female,80.277
+Sri Lanka,total,76.61
+Sri Lanka,male,72.851
+Sri Lanka,female,80.23
+British Virgin Islands,total,76.373
+British Virgin Islands,male,73.622
+British Virgin Islands,female,79.256
+Malaysia,total,76.26
+Malaysia,male,73.955
+Malaysia,female,78.799
+Argentina,total,76.064
+Argentina,male,72.851
+Argentina,female,79.277
+Latvia,total,75.927
+Latvia,male,71.49
+Latvia,female,80.088
+Montserrat,total,75.849
+Montserrat,male,74.52
+Montserrat,female,77.541
+Cayman Islands,total,75.555
+Cayman Islands,male,73.234
+Cayman Islands,female,78.124
+Tokelau,total,75.38
+Tokelau,male,74.424
+Tokelau,female,76.198
+Grenada,total,75.335
+Grenada,male,72.588
+Grenada,female,78.298
+Slovakia,total,75.33
+Slovakia,male,71.929
+Slovakia,female,78.813
+Bosnia and Herzegovina,total,75.293
+Bosnia and Herzegovina,male,73.126
+Bosnia and Herzegovina,female,77.498
+Cook Islands,total,75.148
+Cook Islands,male,71.445
+Cook Islands,female,79.035
+United States Virgin Islands,total,75.066
+United States Virgin Islands,male,69.831
+United States Virgin Islands,female,80.866
+Mayotte,total,75.049
+Mayotte,male,71.861
+Mayotte,female,78.522
+Aruba,total,74.992
+Aruba,male,72.145
+Aruba,female,77.681
+Morocco,total,74.973
+Morocco,male,72.896
+Morocco,female,77.177
+Hungary,total,74.958
+Hungary,male,71.552
+Hungary,female,78.309
+Turks and Caicos Islands,total,74.925
+Turks and Caicos Islands,male,72.165
+Turks and Caicos Islands,female,77.986
+Mexico,total,74.832
+Mexico,male,71.547
+Mexico,female,78.161
+Cape Verde,total,74.722
+Cape Verde,male,70.29
+Cape Verde,female,79.011
+Trinidad and Tobago,total,74.708
+Trinidad and Tobago,male,71.307
+Trinidad and Tobago,female,78.153
+Nicaragua,total,74.615
+Nicaragua,male,71.613
+Nicaragua,female,77.556
+Vietnam,total,74.58
+Vietnam,male,69.927
+Vietnam,female,79.29
+Iran,total,74.556
+Iran,male,71.93
+Iran,female,77.453
+Brunei,total,74.551
+Brunei,male,72.509
+Brunei,female,76.791
+Lebanon,total,74.416
+Lebanon,male,72.237
+Lebanon,female,76.597
+Sint Maarten,total,74.409
+Sint Maarten,male,71.958
+Sint Maarten,female,77.141
+Bahamas,total,74.358
+Bahamas,male,70.757
+Bahamas,female,77.843
+Lithuania,total,74.293
+Lithuania,male,69.492
+Lithuania,female,79.13
+Tunisia,total,74.263
+Tunisia,male,71.367
+Tunisia,female,77.408
+Jordan,total,74.215
+Jordan,male,72.12
+Jordan,female,76.675
+Dominican Republic,total,74.17
+Dominican Republic,male,71.044
+Dominican Republic,female,77.536
+Serbia,total,74.137
+Serbia,male,71.276
+Serbia,female,76.975
+Romania,total,74.117
+Romania,male,70.724
+Romania,female,77.619
+Mauritius,total,73.975
+Mauritius,male,70.963
+Mauritius,female,77.128
+Oman,total,73.935
+Oman,male,72.356
+Oman,female,76.046
+North Macedonia,total,73.888
+North Macedonia,male,71.733
+North Macedonia,female,76.16
+Bangladesh,total,73.698
+Bangladesh,male,71.514
+Bangladesh,female,76.012
+Colombia,total,73.659
+Colombia,male,70.319
+Colombia,female,77.143
+North Korea,total,73.578
+North Korea,male,70.973
+North Korea,female,76.146
+Azerbaijan,total,73.488
+Azerbaijan,male,70.55
+Azerbaijan,female,76.249
+Palestine,total,73.444
+Palestine,male,71.024
+Palestine,female,75.948
+Brazil,total,73.425
+Brazil,male,70.296
+Brazil,female,76.596
+Peru,total,73.385
+Peru,male,71.332
+Peru,female,75.495
+Armenia,total,73.372
+Armenia,male,67.866
+Armenia,female,78.447
+Belarus,total,73.246
+Belarus,male,68.09
+Belarus,female,78.384
+Dominica,total,72.981
+Dominica,male,69.875
+Dominica,female,76.451
+American Samoa,total,72.723
+American Samoa,male,70.004
+American Samoa,female,75.541
+Mongolia,total,72.667
+Mongolia,male,68.079
+Mongolia,female,77.375
+Samoa,total,72.598
+Samoa,male,70.146
+Samoa,female,75.333
+Greenland,total,72.582
+Greenland,male,70.117
+Greenland,female,75.95
+Syria,total,72.3
+Syria,male,68.671
+Syria,female,76.117
+Bhutan,total,72.229
+Bhutan,male,70.57
+Bhutan,female,74.152
+Philippines,total,72.187
+Philippines,male,70.218
+Philippines,female,74.174
+Libya,total,72.151
+Libya,male,69.736
+Libya,female,74.759
+Saint Kitts and Nevis,total,72.027
+Saint Kitts and Nevis,male,68.682
+Saint Kitts and Nevis,female,75.666
+Seychelles,total,71.738
+Seychelles,male,68.237
+Seychelles,female,76.042
+Uzbekistan,total,71.674
+Uzbekistan,male,69.032
+Uzbekistan,female,74.293
+Georgia,total,71.587
+Georgia,male,66.76
+Georgia,female,76.461
+Bulgaria,total,71.528
+Bulgaria,male,68.278
+Bulgaria,female,75.08
+El Salvador,total,71.475
+El Salvador,male,66.837
+El Salvador,female,75.813
+Iraq,total,71.336
+Iraq,male,69.162
+Iraq,female,73.362
+Saint Lucia,total,71.294
+Saint Lucia,male,68.005
+Saint Lucia,female,74.887
+Tajikistan,total,71.288
+Tajikistan,male,69.189
+Tajikistan,female,73.518
+Tonga,total,71.27
+Tonga,male,68.581
+Tonga,female,74.123
+Niue,total,71.189
+Niue,male,69.451
+Niue,female,72.868
+Venezuela,total,71.105
+Venezuela,male,66.875
+Venezuela,female,75.655
+Western Sahara,total,70.976
+Western Sahara,male,69.319
+Western Sahara,female,73.097
+Belize,total,70.962
+Belize,male,67.721
+Belize,female,74.685
+Micronesia,total,70.925
+Micronesia,male,67.325
+Micronesia,female,74.823
+Solomon Islands,total,70.742
+Solomon Islands,male,69.294
+Solomon Islands,female,72.358
+Honduras,total,70.728
+Honduras,male,68.461
+Honduras,female,73.157
+Jamaica,total,70.629
+Jamaica,male,68.532
+Jamaica,female,72.737
+Vanuatu,total,70.492
+Vanuatu,male,68.316
+Vanuatu,female,73.067
+Nepal,total,70.484
+Nepal,male,68.608
+Nepal,female,72.364
+Kyrgyzstan,total,70.484
+Kyrgyzstan,male,66.218
+Kyrgyzstan,female,74.929
+Paraguay,total,70.475
+Paraguay,male,67.645
+Paraguay,female,73.571
+Egypt,total,70.159
+Egypt,male,67.869
+Egypt,female,72.557
+Russia,total,70.116
+Russia,male,64.689
+Russia,female,75.702
+Cambodia,total,69.896
+Cambodia,male,67.117
+Cambodia,female,72.622
+Kazakhstan,total,69.489
+Kazakhstan,male,65.776
+Kazakhstan,female,72.995
+Turkmenistan,total,69.41
+Turkmenistan,male,65.916
+Turkmenistan,female,72.916
+Timor-Leste,total,69.056
+Timor-Leste,male,67.435
+Timor-Leste,female,70.815
+Laos,total,68.999
+Laos,male,66.94
+Laos,female,71.164
+Saint Vincent and the Grenadines,total,68.972
+Saint Vincent and the Grenadines,male,66.693
+Saint Vincent and the Grenadines,female,71.731
+Sao Tome and Principe,total,68.794
+Sao Tome and Principe,male,66.054
+Sao Tome and Principe,female,71.938
+Guatemala,total,68.674
+Guatemala,male,65.697
+Guatemala,female,71.754
+Moldova,total,68.621
+Moldova,male,64.217
+Moldova,female,73.32
+Ukraine,total,68.564
+Ukraine,male,63.525
+Ukraine,female,73.904
+Fiji,total,68.312
+Fiji,male,66.465
+Fiji,female,70.239
+Indonesia,total,68.25
+Indonesia,male,66.181
+Indonesia,female,70.437
+Senegal,total,67.913
+Senegal,male,65.473
+Senegal,female,70.2
+India,total,67.744
+India,male,66.257
+India,female,69.384
+Kiribati,total,67.661
+Kiribati,male,65.731
+Kiribati,female,69.386
+Myanmar,total,67.256
+Myanmar,male,64.18
+Myanmar,female,70.478
+Rwanda,total,67.129
+Rwanda,male,64.813
+Rwanda,female,69.244
+Tanzania,total,66.782
+Tanzania,male,64.72
+Tanzania,female,68.93
+Eritrea,total,66.604
+Eritrea,male,64.457
+Eritrea,female,68.678
+Pakistan,total,66.431
+Pakistan,male,64.134
+Pakistan,female,68.918
+Guyana,total,65.989
+Guyana,male,62.778
+Guyana,female,69.399
+Papua New Guinea,total,65.958
+Papua New Guinea,male,63.378
+Papua New Guinea,female,69.172
+Botswana,total,65.913
+Botswana,male,63.328
+Botswana,female,68.399
+Gabon,total,65.694
+Gabon,male,63.361
+Gabon,female,68.359
+Ethiopia,total,65.645
+Ethiopia,male,62.613
+Ethiopia,female,68.903
+Sudan,total,65.578
+Sudan,male,63.048
+Sudan,female,68.184
+Palau,total,65.362
+Palau,male,62.2
+Palau,female,69.314
+Madagascar,total,65.23
+Madagascar,male,62.97
+Madagascar,female,67.617
+Marshall Islands,total,65.146
+Marshall Islands,male,63.546
+Marshall Islands,female,67.092
+Bolivia,total,64.928
+Bolivia,male,62.265
+Bolivia,female,67.907
+Tuvalu,total,64.854
+Tuvalu,male,61.136
+Tuvalu,female,69.391
+Mauritania,total,64.691
+Mauritania,male,62.965
+Mauritania,female,66.447
+Nauru,total,64.014
+Nauru,male,60.52
+Nauru,female,67.841
+Ghana,total,63.945
+Ghana,male,61.805
+Ghana,female,66.13
+Haiti,total,63.728
+Haiti,male,60.892
+Haiti,female,66.695
+Yemen,total,63.72
+Yemen,male,60.493
+Yemen,female,67.222
+Comoros,total,63.68
+Comoros,male,61.522
+Comoros,female,66.061
+Uganda,total,63.638
+Uganda,male,61.486
+Uganda,female,65.703
+Republic of the Congo,total,63.053
+Republic of the Congo,male,61.513
+Republic of the Congo,female,64.617
+Gambia,total,62.906
+Gambia,male,61.481
+Gambia,female,64.344
+Malawi,total,62.898
+Malawi,male,59.58
+Malawi,female,66.326
+Afghanistan,total,62.879
+Afghanistan,male,59.766
+Afghanistan,female,66.213
+Djibouti,total,62.859
+Djibouti,male,60.336
+Djibouti,female,65.503
+Niger,total,62.08
+Niger,male,60.816
+Niger,female,63.401
+Kenya,total,62.055
+Kenya,male,59.579
+Kenya,female,64.686
+Burundi,total,61.977
+Burundi,male,60.077
+Burundi,female,63.868
+Angola,total,61.929
+Angola,male,59.351
+Angola,female,64.541
+Zambia,total,61.803
+Zambia,male,59.058
+Zambia,female,64.51
+Togo,total,61.588
+Togo,male,60.946
+Togo,female,62.227
+South Africa,total,61.48
+South Africa,male,58.597
+South Africa,female,64.181
+Equatorial Guinea,total,61.19
+Equatorial Guinea,male,59.432
+Equatorial Guinea,female,63.261
+Liberia,total,61.1
+Liberia,male,59.796
+Liberia,female,62.392
+Cameroon,total,60.958
+Cameroon,male,59.392
+Cameroon,female,62.556
+Sierra Leone,total,60.411
+Sierra Leone,male,59.115
+Sierra Leone,female,61.693
+Benin,total,59.954
+Benin,male,58.265
+Benin,female,61.676
+Guinea-Bissau,total,59.861
+Guinea-Bissau,male,57.671
+Guinea-Bissau,female,61.929
+Burkina Faso,total,59.766
+Burkina Faso,male,57.953
+Burkina Faso,female,61.505
+DR Congo,total,59.743
+DR Congo,male,57.516
+DR Congo,female,62.05
+Mozambique,total,59.625
+Mozambique,male,56.529
+Mozambique,female,62.688
+Mali,total,59.417
+Mali,male,58.068
+Mali,female,60.832
+Zimbabwe,total,59.391
+Zimbabwe,male,56.428
+Zimbabwe,female,62.094
+Guinea,total,58.985
+Guinea,male,57.643
+Guinea,female,60.238
+Ivory Coast,total,58.916
+Ivory Coast,male,57.686
+Ivory Coast,female,60.282
+Namibia,total,58.059
+Namibia,male,54.592
+Namibia,female,61.704
+Eswatini,total,56.36
+Eswatini,male,52.647
+Eswatini,female,60.599
+Somalia,total,56.107
+Somalia,male,54.072
+Somalia,female,58.233
+South Sudan,total,55.567
+South Sudan,male,54.036
+South Sudan,female,57.047
+Central African Republic,total,54.477
+Central African Republic,male,52.258
+Central African Republic,female,56.829
+Nigeria,total,53.633
+Nigeria,male,53.295
+Nigeria,female,53.968
+Lesotho,total,53.036
+Lesotho,male,50.319
+Lesotho,female,55.923
+Chad,total,52.997
+Chad,male,51.3
+Chad,female,54.769
