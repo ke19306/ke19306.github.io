@@ -1,0 +1,700 @@
+﻿Country Name,Avg_Life_expectancy,Gender
+Monaco,86.895,1
+Monaco,85.055,2
+Monaco,88.881,3
+Macau,85.377,1
+Macau,82.753,2
+Macau,87.98,3
+Japan,84.82,1
+Japan,81.782,2
+Japan,87.832,3
+Liechtenstein,84.656,1
+Liechtenstein,83.019,2
+Liechtenstein,86.129,3
+Hong Kong,84.315,1
+Hong Kong,81.754,2
+Hong Kong,86.893,3
+Switzerland,84.255,1
+Switzerland,82.484,2
+Switzerland,85.932,3
+Singapore,84.133,1
+Singapore,81.981,2
+Singapore,86.295,3
+Italy,84.057,1
+Italy,81.974,2
+Italy,86,3
+Vatican City,84.035,1
+Vatican City,82.002,2
+Vatican City,85.929,3
+South Korea,84.024,1
+South Korea,80.695,2
+South Korea,87.101,3
+Spain,83.912,1
+Spain,81.2,2
+Spain,86.549,3
+Malta,83.704,1
+Malta,81.644,2
+Malta,85.703,3
+Australia,83.579,1
+Australia,81.708,2
+Australia,85.453,3
+Andorra,83.552,1
+Andorra,81.43,2
+Andorra,85.838,3
+French Polynesia,83.55,1
+French Polynesia,81.329,2
+French Polynesia,85.977,3
+Sweden,83.505,1
+Sweden,81.902,2
+Sweden,85.092,3
+San Marino,83.433,1
+San Marino,82.036,2
+San Marino,84.733,3
+Norway,83.393,1
+Norway,81.718,2
+Norway,85.055,3
+Martinique,83.305,1
+Martinique,80.275,2
+Martinique,85.966,3
+France,83.229,1
+France,80.356,2
+France,85.967,3
+New Zealand,83.006,1
+New Zealand,81.251,2
+New Zealand,84.726,3
+Canada,82.847,1
+Canada,80.868,2
+Canada,84.797,3
+Gibraltar,82.83,1
+Gibraltar,80.93,2
+Gibraltar,84.691,3
+Iceland,82.815,1
+Iceland,81.382,2
+Iceland,84.288,3
+Guernsey,82.782,1
+Guernsey,81.103,2
+Guernsey,84.418,3
+Ireland,82.716,1
+Ireland,81.017,2
+Ireland,84.412,3
+Reunion,82.612,1
+Reunion,79.739,2
+Reunion,85.4,3
+Israel,82.601,1
+Israel,80.625,2
+Israel,84.508,3
+Luxembourg,82.591,1
+Luxembourg,80.445,2
+Luxembourg,84.77,3
+Netherlands,82.451,1
+Netherlands,80.944,2
+Netherlands,83.904,3
+Austria,82.412,1
+Austria,80.15,2
+Austria,84.6,3
+Finland,82.351,1
+Finland,79.792,2
+Finland,84.886,3
+Belgium,82.293,1
+Belgium,80.16,2
+Belgium,84.367,3
+Portugal,82.24,1
+Portugal,79.308,2
+Portugal,84.93,3
+United Kingdom,82.156,1
+United Kingdom,80.439,2
+United Kingdom,83.834,3
+Slovenia,82.133,1
+Slovenia,79.626,2
+Slovenia,84.616,3
+Cyprus,81.889,1
+Cyprus,80.068,2
+Cyprus,83.673,3
+Denmark,81.882,1
+Denmark,79.958,2
+Denmark,83.802,3
+Bermuda,81.571,1
+Bermuda,78.435,2
+Bermuda,84.507,3
+Qatar,81.559,1
+Qatar,80.626,2
+Qatar,83.101,3
+Taiwan,81.267,1
+Taiwan,78.128,2
+Taiwan,84.539,3
+New Caledonia,80.998,1
+New Caledonia,77.525,2
+New Caledonia,84.612,3
+Germany,80.989,1
+Germany,78.512,2
+Germany,83.487,3
+Jersey,80.898,1
+Jersey,78.61,2
+Jersey,83.191,3
+Maldives,80.839,1
+Maldives,80.065,2
+Maldives,81.844,3
+Guadeloupe,80.799,1
+Guadeloupe,77.251,2
+Guadeloupe,83.896,3
+Isle of Man,80.762,1
+Isle of Man,78.833,2
+Isle of Man,82.732,3
+Saint Barthelemy,80.643,1
+Saint Barthelemy,77.595,2
+Saint Barthelemy,83.733,3
+Greece,80.614,1
+Greece,78.022,2
+Greece,83.317,3
+Saint Martin,80.55,1
+Saint Martin,77.502,2
+Saint Martin,83.658,3
+Kuwait,80.264,1
+Kuwait,78.878,2
+Kuwait,82.752,3
+Wallis and Futuna,80.015,1
+Wallis and Futuna,79.031,2
+Wallis and Futuna,80.99,3
+Puerto Rico,79.72,1
+Puerto Rico,75.578,2
+Puerto Rico,83.897,3
+Thailand,79.68,1
+Thailand,75.473,2
+Thailand,83.929,3
+Chile,79.519,1
+Chile,77.156,2
+Chile,81.877,3
+Bahrain,79.246,1
+Bahrain,78.242,2
+Bahrain,80.497,3
+Falkland Islands,79.243,1
+Falkland Islands,77.358,2
+Falkland Islands,81.236,3
+Croatia,79.236,1
+Croatia,76.415,2
+Croatia,82,3
+Antigua and Barbuda,79.236,1
+Antigua and Barbuda,76.507,2
+Antigua and Barbuda,81.645,3
+United Arab Emirates,79.196,1
+United Arab Emirates,77.72,2
+United Arab Emirates,81.412,3
+Estonia,79.155,1
+Estonia,74.983,2
+Estonia,82.987,3
+Faroe Islands,78.897,1
+Faroe Islands,77.312,2
+Faroe Islands,80.701,3
+China,78.587,1
+China,75.963,2
+China,81.343,3
+Turkey,78.475,1
+Turkey,75.38,2
+Turkey,81.495,3
+Guam,78.33,1
+Guam,74.838,2
+Guam,82.046,3
+United States,78.203,1
+United States,75.479,2
+United States,81.015,3
+Cuba,78.155,1
+Cuba,75.793,2
+Cuba,80.565,3
+Czech Republic,78.129,1
+Czech Republic,75.106,2
+Czech Republic,81.22,3
+Uruguay,78,1
+Uruguay,74.147,2
+Uruguay,81.685,3
+Saudi Arabia,77.905,1
+Saudi Arabia,76.666,2
+Saudi Arabia,79.525,3
+Ecuador,77.894,1
+Ecuador,75.313,2
+Ecuador,80.481,3
+Barbados,77.706,1
+Barbados,75.677,2
+Barbados,79.581,3
+Saint Pierre and Miquelon,77.608,1
+Saint Pierre and Miquelon,74.008,2
+Saint Pierre and Miquelon,81.693,3
+Northern Mariana Islands,77.471,1
+Northern Mariana Islands,75.863,2
+Northern Mariana Islands,79.459,3
+French Guiana,77.452,1
+French Guiana,74.763,2
+French Guiana,80.32,3
+Anguilla,77.442,1
+Anguilla,74.136,2
+Anguilla,81.156,3
+Costa Rica,77.32,1
+Costa Rica,74.762,2
+Costa Rica,80.036,3
+Algeria,77.129,1
+Algeria,75.853,2
+Algeria,78.457,3
+Poland,76.996,1
+Poland,73.233,2
+Poland,80.796,3
+Montenegro,76.845,1
+Montenegro,73.48,2
+Montenegro,80.262,3
+Albania,76.833,1
+Albania,74.502,2
+Albania,79.472,3
+Panama,76.826,1
+Panama,73.726,2
+Panama,80.091,3
+Curacao,76.651,1
+Curacao,72.698,2
+Curacao,80.277,3
+Sri Lanka,76.61,1
+Sri Lanka,72.851,2
+Sri Lanka,80.23,3
+British Virgin Islands,76.373,1
+British Virgin Islands,73.622,2
+British Virgin Islands,79.256,3
+Malaysia,76.26,1
+Malaysia,73.955,2
+Malaysia,78.799,3
+Argentina,76.064,1
+Argentina,72.851,2
+Argentina,79.277,3
+Latvia,75.927,1
+Latvia,71.49,2
+Latvia,80.088,3
+Montserrat,75.849,1
+Montserrat,74.52,2
+Montserrat,77.541,3
+Cayman Islands,75.555,1
+Cayman Islands,73.234,2
+Cayman Islands,78.124,3
+Tokelau,75.38,1
+Tokelau,74.424,2
+Tokelau,76.198,3
+Grenada,75.335,1
+Grenada,72.588,2
+Grenada,78.298,3
+Slovakia,75.33,1
+Slovakia,71.929,2
+Slovakia,78.813,3
+Bosnia and Herzegovina,75.293,1
+Bosnia and Herzegovina,73.126,2
+Bosnia and Herzegovina,77.498,3
+Cook Islands,75.148,1
+Cook Islands,71.445,2
+Cook Islands,79.035,3
+United States Virgin Islands,75.066,1
+United States Virgin Islands,69.831,2
+United States Virgin Islands,80.866,3
+Mayotte,75.049,1
+Mayotte,71.861,2
+Mayotte,78.522,3
+Aruba,74.992,1
+Aruba,72.145,2
+Aruba,77.681,3
+Morocco,74.973,1
+Morocco,72.896,2
+Morocco,77.177,3
+Hungary,74.958,1
+Hungary,71.552,2
+Hungary,78.309,3
+Turks and Caicos Islands,74.925,1
+Turks and Caicos Islands,72.165,2
+Turks and Caicos Islands,77.986,3
+Mexico,74.832,1
+Mexico,71.547,2
+Mexico,78.161,3
+Cape Verde,74.722,1
+Cape Verde,70.29,2
+Cape Verde,79.011,3
+Trinidad and Tobago,74.708,1
+Trinidad and Tobago,71.307,2
+Trinidad and Tobago,78.153,3
+Nicaragua,74.615,1
+Nicaragua,71.613,2
+Nicaragua,77.556,3
+Vietnam,74.58,1
+Vietnam,69.927,2
+Vietnam,79.29,3
+Iran,74.556,1
+Iran,71.93,2
+Iran,77.453,3
+Brunei,74.551,1
+Brunei,72.509,2
+Brunei,76.791,3
+Lebanon,74.416,1
+Lebanon,72.237,2
+Lebanon,76.597,3
+Sint Maarten,74.409,1
+Sint Maarten,71.958,2
+Sint Maarten,77.141,3
+Bahamas,74.358,1
+Bahamas,70.757,2
+Bahamas,77.843,3
+Lithuania,74.293,1
+Lithuania,69.492,2
+Lithuania,79.13,3
+Tunisia,74.263,1
+Tunisia,71.367,2
+Tunisia,77.408,3
+Jordan,74.215,1
+Jordan,72.12,2
+Jordan,76.675,3
+Dominican Republic,74.17,1
+Dominican Republic,71.044,2
+Dominican Republic,77.536,3
+Serbia,74.137,1
+Serbia,71.276,2
+Serbia,76.975,3
+Romania,74.117,1
+Romania,70.724,2
+Romania,77.619,3
+Mauritius,73.975,1
+Mauritius,70.963,2
+Mauritius,77.128,3
+Oman,73.935,1
+Oman,72.356,2
+Oman,76.046,3
+North Macedonia,73.888,1
+North Macedonia,71.733,2
+North Macedonia,76.16,3
+Bangladesh,73.698,1
+Bangladesh,71.514,2
+Bangladesh,76.012,3
+Colombia,73.659,1
+Colombia,70.319,2
+Colombia,77.143,3
+North Korea,73.578,1
+North Korea,70.973,2
+North Korea,76.146,3
+Azerbaijan,73.488,1
+Azerbaijan,70.55,2
+Azerbaijan,76.249,3
+Palestine,73.444,1
+Palestine,71.024,2
+Palestine,75.948,3
+Brazil,73.425,1
+Brazil,70.296,2
+Brazil,76.596,3
+Peru,73.385,1
+Peru,71.332,2
+Peru,75.495,3
+Armenia,73.372,1
+Armenia,67.866,2
+Armenia,78.447,3
+Belarus,73.246,1
+Belarus,68.09,2
+Belarus,78.384,3
+Dominica,72.981,1
+Dominica,69.875,2
+Dominica,76.451,3
+American Samoa,72.723,1
+American Samoa,70.004,2
+American Samoa,75.541,3
+Mongolia,72.667,1
+Mongolia,68.079,2
+Mongolia,77.375,3
+Samoa,72.598,1
+Samoa,70.146,2
+Samoa,75.333,3
+Greenland,72.582,1
+Greenland,70.117,2
+Greenland,75.95,3
+Syria,72.3,1
+Syria,68.671,2
+Syria,76.117,3
+Bhutan,72.229,1
+Bhutan,70.57,2
+Bhutan,74.152,3
+Philippines,72.187,1
+Philippines,70.218,2
+Philippines,74.174,3
+Libya,72.151,1
+Libya,69.736,2
+Libya,74.759,3
+Saint Kitts and Nevis,72.027,1
+Saint Kitts and Nevis,68.682,2
+Saint Kitts and Nevis,75.666,3
+Seychelles,71.738,1
+Seychelles,68.237,2
+Seychelles,76.042,3
+Uzbekistan,71.674,1
+Uzbekistan,69.032,2
+Uzbekistan,74.293,3
+Georgia,71.587,1
+Georgia,66.76,2
+Georgia,76.461,3
+Bulgaria,71.528,1
+Bulgaria,68.278,2
+Bulgaria,75.08,3
+El Salvador,71.475,1
+El Salvador,66.837,2
+El Salvador,75.813,3
+Iraq,71.336,1
+Iraq,69.162,2
+Iraq,73.362,3
+Saint Lucia,71.294,1
+Saint Lucia,68.005,2
+Saint Lucia,74.887,3
+Tajikistan,71.288,1
+Tajikistan,69.189,2
+Tajikistan,73.518,3
+Tonga,71.27,1
+Tonga,68.581,2
+Tonga,74.123,3
+Niue,71.189,1
+Niue,69.451,2
+Niue,72.868,3
+Venezuela,71.105,1
+Venezuela,66.875,2
+Venezuela,75.655,3
+Western Sahara,70.976,1
+Western Sahara,69.319,2
+Western Sahara,73.097,3
+Belize,70.962,1
+Belize,67.721,2
+Belize,74.685,3
+Micronesia,70.925,1
+Micronesia,67.325,2
+Micronesia,74.823,3
+Solomon Islands,70.742,1
+Solomon Islands,69.294,2
+Solomon Islands,72.358,3
+Honduras,70.728,1
+Honduras,68.461,2
+Honduras,73.157,3
+Jamaica,70.629,1
+Jamaica,68.532,2
+Jamaica,72.737,3
+Vanuatu,70.492,1
+Vanuatu,68.316,2
+Vanuatu,73.067,3
+Nepal,70.484,1
+Nepal,68.608,2
+Nepal,72.364,3
+Kyrgyzstan,70.484,1
+Kyrgyzstan,66.218,2
+Kyrgyzstan,74.929,3
+Paraguay,70.475,1
+Paraguay,67.645,2
+Paraguay,73.571,3
+Egypt,70.159,1
+Egypt,67.869,2
+Egypt,72.557,3
+Russia,70.116,1
+Russia,64.689,2
+Russia,75.702,3
+Cambodia,69.896,1
+Cambodia,67.117,2
+Cambodia,72.622,3
+Kazakhstan,69.489,1
+Kazakhstan,65.776,2
+Kazakhstan,72.995,3
+Turkmenistan,69.41,1
+Turkmenistan,65.916,2
+Turkmenistan,72.916,3
+Timor-Leste,69.056,1
+Timor-Leste,67.435,2
+Timor-Leste,70.815,3
+Laos,68.999,1
+Laos,66.94,2
+Laos,71.164,3
+Saint Vincent and the Grenadines,68.972,1
+Saint Vincent and the Grenadines,66.693,2
+Saint Vincent and the Grenadines,71.731,3
+Sao Tome and Principe,68.794,1
+Sao Tome and Principe,66.054,2
+Sao Tome and Principe,71.938,3
+Guatemala,68.674,1
+Guatemala,65.697,2
+Guatemala,71.754,3
+Moldova,68.621,1
+Moldova,64.217,2
+Moldova,73.32,3
+Ukraine,68.564,1
+Ukraine,63.525,2
+Ukraine,73.904,3
+Fiji,68.312,1
+Fiji,66.465,2
+Fiji,70.239,3
+Indonesia,68.25,1
+Indonesia,66.181,2
+Indonesia,70.437,3
+Senegal,67.913,1
+Senegal,65.473,2
+Senegal,70.2,3
+India,67.744,1
+India,66.257,2
+India,69.384,3
+Kiribati,67.661,1
+Kiribati,65.731,2
+Kiribati,69.386,3
+Myanmar,67.256,1
+Myanmar,64.18,2
+Myanmar,70.478,3
+Rwanda,67.129,1
+Rwanda,64.813,2
+Rwanda,69.244,3
+Tanzania,66.782,1
+Tanzania,64.72,2
+Tanzania,68.93,3
+Eritrea,66.604,1
+Eritrea,64.457,2
+Eritrea,68.678,3
+Pakistan,66.431,1
+Pakistan,64.134,2
+Pakistan,68.918,3
+Guyana,65.989,1
+Guyana,62.778,2
+Guyana,69.399,3
+Papua New Guinea,65.958,1
+Papua New Guinea,63.378,2
+Papua New Guinea,69.172,3
+Botswana,65.913,1
+Botswana,63.328,2
+Botswana,68.399,3
+Gabon,65.694,1
+Gabon,63.361,2
+Gabon,68.359,3
+Ethiopia,65.645,1
+Ethiopia,62.613,2
+Ethiopia,68.903,3
+Sudan,65.578,1
+Sudan,63.048,2
+Sudan,68.184,3
+Palau,65.362,1
+Palau,62.2,2
+Palau,69.314,3
+Madagascar,65.23,1
+Madagascar,62.97,2
+Madagascar,67.617,3
+Marshall Islands,65.146,1
+Marshall Islands,63.546,2
+Marshall Islands,67.092,3
+Bolivia,64.928,1
+Bolivia,62.265,2
+Bolivia,67.907,3
+Tuvalu,64.854,1
+Tuvalu,61.136,2
+Tuvalu,69.391,3
+Mauritania,64.691,1
+Mauritania,62.965,2
+Mauritania,66.447,3
+Nauru,64.014,1
+Nauru,60.52,2
+Nauru,67.841,3
+Ghana,63.945,1
+Ghana,61.805,2
+Ghana,66.13,3
+Haiti,63.728,1
+Haiti,60.892,2
+Haiti,66.695,3
+Yemen,63.72,1
+Yemen,60.493,2
+Yemen,67.222,3
+Comoros,63.68,1
+Comoros,61.522,2
+Comoros,66.061,3
+Uganda,63.638,1
+Uganda,61.486,2
+Uganda,65.703,3
+Republic of the Congo,63.053,1
+Republic of the Congo,61.513,2
+Republic of the Congo,64.617,3
+Gambia,62.906,1
+Gambia,61.481,2
+Gambia,64.344,3
+Malawi,62.898,1
+Malawi,59.58,2
+Malawi,66.326,3
+Afghanistan,62.879,1
+Afghanistan,59.766,2
+Afghanistan,66.213,3
+Djibouti,62.859,1
+Djibouti,60.336,2
+Djibouti,65.503,3
+Niger,62.08,1
+Niger,60.816,2
+Niger,63.401,3
+Kenya,62.055,1
+Kenya,59.579,2
+Kenya,64.686,3
+Burundi,61.977,1
+Burundi,60.077,2
+Burundi,63.868,3
+Angola,61.929,1
+Angola,59.351,2
+Angola,64.541,3
+Zambia,61.803,1
+Zambia,59.058,2
+Zambia,64.51,3
+Togo,61.588,1
+Togo,60.946,2
+Togo,62.227,3
+South Africa,61.48,1
+South Africa,58.597,2
+South Africa,64.181,3
+Equatorial Guinea,61.19,1
+Equatorial Guinea,59.432,2
+Equatorial Guinea,63.261,3
+Liberia,61.1,1
+Liberia,59.796,2
+Liberia,62.392,3
+Cameroon,60.958,1
+Cameroon,59.392,2
+Cameroon,62.556,3
+Sierra Leone,60.411,1
+Sierra Leone,59.115,2
+Sierra Leone,61.693,3
+Benin,59.954,1
+Benin,58.265,2
+Benin,61.676,3
+Guinea-Bissau,59.861,1
+Guinea-Bissau,57.671,2
+Guinea-Bissau,61.929,3
+Burkina Faso,59.766,1
+Burkina Faso,57.953,2
+Burkina Faso,61.505,3
+DR Congo,59.743,1
+DR Congo,57.516,2
+DR Congo,62.05,3
+Mozambique,59.625,1
+Mozambique,56.529,2
+Mozambique,62.688,3
+Mali,59.417,1
+Mali,58.068,2
+Mali,60.832,3
+Zimbabwe,59.391,1
+Zimbabwe,56.428,2
+Zimbabwe,62.094,3
+Guinea,58.985,1
+Guinea,57.643,2
+Guinea,60.238,3
+Ivory Coast,58.916,1
+Ivory Coast,57.686,2
+Ivory Coast,60.282,3
+Namibia,58.059,1
+Namibia,54.592,2
+Namibia,61.704,3
+Eswatini,56.36,1
+Eswatini,52.647,2
+Eswatini,60.599,3
+Somalia,56.107,1
+Somalia,54.072,2
+Somalia,58.233,3
+South Sudan,55.567,1
+South Sudan,54.036,2
+South Sudan,57.047,3
+Central African Republic,54.477,1
+Central African Republic,52.258,2
+Central African Republic,56.829,3
+Nigeria,53.633,1
+Nigeria,53.295,2
+Nigeria,53.968,3
+Lesotho,53.036,1
+Lesotho,50.319,2
+Lesotho,55.923,3
+Chad,52.997,1
+Chad,51.3,2
+Chad,54.769,3
