@@ -1,0 +1,41 @@
+Country Name,Year,spending,Life_Exp
+China,2000,42,71
+China,2001,43,72
+China,2002,49,73
+China,2003,55,73
+China,2004,63,73
+China,2005,71,74
+China,2006,81,74
+China,2007,97,74
+China,2008,131,74
+China,2009,162,75
+China,2010,186,75
+China,2011,236,75
+China,2012,281,76
+China,2013,326,76
+China,2014,359,76
+China,2015,390,77
+China,2016,395,77
+China,2017,437,77
+China,2018,501,77
+China,2019,535,78
+United States,2000,4543,76
+United States,2001,4894,76
+United States,2002,5322,77
+United States,2003,5732,77
+United States,2004,6097,77
+United States,2005,6454,77
+United States,2006,6828,77
+United States,2007,7181,78
+United States,2008,7401,78
+United States,2009,7657,78
+United States,2010,7888,78
+United States,2011,8080,78
+United States,2012,8342,78
+United States,2013,8522,79
+United States,2014,8939,79
+United States,2015,9392,78
+United States,2016,9775,78
+United States,2017,10103,78
+United States,2018,10515,79
+United States,2019,10921,79
