@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="index.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.17.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@4.17.0"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.12.2"></script>
+
+</head>
+<body>
+    
+
+    <div class="portfoliolinks">
+
+        <h1>Project</h1>
+
+        <p>Causes for Differences in Life Expectancy around the Globe</p>
+    
+    <a class="textLink" href="https://github.com/ke19306/ke19306.github.io"> Github</a>
+    <a href="portfolio.html" id="link1">Portfolio</a>
+    <a href="index.html" id="link1">Home</a>
+    
+
+    </div>
+
+
+    <div class="myWeek1">
+    
+       <h2>Comparing Global Life expectancy's</h2>
+
+         <p> I am going to do my project on differences in country's Life expectancy's</p>
+         <p>Looking into Contrast in the US and China</p>
+
+         
+        <p>Health care spending</p>
+
+        <div class="mapchart" id="Hworldchart"></div>
+
+        <h2>Global life expectancy </h2>
+        <div class="mapchart" id="LEworldchart"></div>
+
+        <h2>Correlation between healthcare spending
+                Life expectancy
+        </h2>
+        <div class="chart" id="LGDPchart"></div>
+
+        <h3> China vs the usa</h3>
+        <div class="chart" id="UScfinalchart"></div>
+
+        <h2> Pollution against Life Expectancy</h2>
+        <div class="chart" id="polchart"></div>
+
+        <h3> Religion against Life Expectancy</h3>
+        <div class="chart" id="religionchart"></div>
+
+
+
+    
+
+
+
+
+    
+</body>
+
+<script>
+    var myHworldchart="Hworld.json";
+    var myLEworldchart="basicLE.json";
+    var myLGDPchart="GDpLifeexp.json";
+    var mypolchart="pollution.json";
+    var myreligionchart="ReligousLifeexp.json";
+    var myUScfinalchart="UScfinal.json";
+
+
+
+    
+    vegaEmbed('#Hworldchart',myHworldchart);
+    vegaEmbed('#LEworldchart',myLEworldchart);
+    vegaEmbed('#LGDPchart',myLGDPchart);
+    vegaEmbed('#polchart',mypolchart);
+    vegaEmbed('#religionchart',myreligionchart);
+    vegaEmbed('#UScfinalchart',myUScfinalchart);
+
+
+</script>
+
+</html>

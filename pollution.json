@@ -1,0 +1,76 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": ["Regression: Life expectancy On Healthcare spending as % of GDP"],
+    "fontSize": 10,
+    "subtitle": "Source: Data.worldbank.org & Ourworldindata.org",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start"
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/ke19306/ke19306.github.io/main/pop-3.csv"
+  },
+  "height": 300,
+  "width": 300,
+  "layer": [
+    {
+      "mark": {
+        "type": "circle",
+        "color": "rgb(0,47,164)",
+        "point": false,
+        "clip": true,
+        "opacity": 0.5
+      },
+      "encoding": {
+        "x": {
+          "field": "pollution",
+          "type": "quantitative",
+          "title": "Pollution",
+          "axis": {"grid": false},
+          "scale": {"domain": [0, 85]}
+        },
+        "y": {
+          "field": "total",
+          "type": "quantitative",
+          "title": "Life expectancy",
+          "axis": {"grid": false},
+          "scale": {"domain": [50, 90]}
+        },
+           "size": {
+          "field": "Population22",
+          "type": "quantitative",
+          "scale": {"range": [20, 1000]},
+          "title": "Country Population",
+          "legend": null
+        },
+        "tooltip": [
+          {"field": "pollution", "type": "quantitative", "title": "pollution"},
+          {
+            "field": "total",
+            "type": "quantitative",
+            "title": "Life expectancy"
+          },
+          {"field": "Country Name", "type": "nominal", "title": ""},
+          {"field": "Population22", "type":"quantitative", "title":"Country Name"}
+        ]
+      }
+    },
+    {
+      "mark": {"type": "line", "color": "black"},
+      "transform": [{"regression": "total", "on": "pollution"}],
+      "encoding": {
+        "x": {"field": "pollution", "type": "quantitative"},
+        "y": {"field": "total", "type": "quantitative"}
+      }
+    },
+    {
+      "transform": [
+        {"regression": "total", "on": "pollution", "params": true},
+        {"calculate": "'R²: '+format(datum.rSquared, '.2f')", "as": "R2"}
+      ],
+      "mark": {"type": "text", "x": "width", "align": "right", "y": -5},
+      "encoding": {"text": {"type": "nominal", "field": "R2"}}
+    }
+  ]
+}

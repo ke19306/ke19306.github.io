@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@600&display=swap');
+
+body{
+    background-color: rgb(255, 255, 255);
+ }
+
+
+/* Choose the appearance of the tags, h1, h3 and p: */
+h1, h3, p{
+    color:rgb(255, 255, 255);
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+   
+h2{
+    color:rgba(0, 47, 167, .8);
+    font-family: 'Roboto", sans-serif';
+    text-align: center;
+
+    
+}
+
+
+.myWeek1{
+    margin: 5em;
+    max-width: 1500px;
+    background-color: rgb(255, 255, 255);
+
+      
+    border-width: 3px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(5, 93, 161);
+}
+
+
+/* Set the apperance of the class, chart */
+.chart{
+    margin-left: 7.5em;
+    background-color: rgb(30, 135, 173);
+    width:375px;
+    border-width: 4px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(30, 135, 173);    
+}
+
+section#Week {
+
+    border-top-style: solid;
+    border-top-width: 5px;
+    border-top-color: rgba(0, 47, 167,1);
+    color: #0f2852;
+    /* background is the gradient variable, and the animation gradually takes place over 10s, alternate means it goes in reverse */
+    background: var(--gradient);
+    background-size: 300%;
+    animation: bg_animation 10s infinite alternate;
+
+}
+
+#link1{
+    margin-left:4em;
+    
+
+    padding:1px;
+     font-family: 'Courier New', Courier, monospace;
+    font-weight:700;
+    color:rgb(255, 255, 255);
+    
+    text-decoration: none;
+
+    animation: border-pulsate1 4s infinite;
+}
+
+#link1:hover{
+
+    background-color: rgba(0, 47, 167, .8);
+    
+}
+
+.grid-container {
+    grid-template-columns: 20em 20em 20em;
+    padding:20em
+  }
+
+.grid-item { 
+    padding:100em;
+    margin-left:100em
+
+}
+
+.container {
+    z-index: 8;
+    position:absolute;
+    top: 100vh;
+    background: #fff;
+    width: 100%;
+}
+
+@media screen and (max-width:600px) {
+    .chart {
+        width: 100%;
+        margin-left: 0
+    }
+
+ 
+}

@@ -11,7 +11,7 @@
   "subtitleColor":"#179fdb"},
 
 "config": {
-  "background":"#122b39",
+  "background":"#ffffff",
   "view": {
     "stroke": "transparent"}},
 
@@ -92,6 +92,7 @@
       "gridColor":"dimgrey",
       "format":"$,.5"}
     }
+
 }
 }
    

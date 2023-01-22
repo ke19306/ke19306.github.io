@@ -1,0 +1,66 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  
+    "width": 515,
+    "height": 300,
+
+    "title": {
+        "text": "World Map",
+        "anchor": "start",
+        "color": "black"},
+  
+    "data":{
+      "url": "https://raw.githubusercontent.com/ke19306/ke19306.github.io/main/worldmap.json",
+      "format":{"property": "features"}},
+  
+          "projection":{
+              "type":"naturalEarth1"
+          },
+
+                    "transform":[
+            {
+                "lookup":"properties.name",
+                "from":{
+                    "data":{
+                        "url":"https://raw.githubusercontent.com/ke19306/ke19306.github.io/main/LE.csv"},
+                    "key":"Country Name",
+                    "fields":["Life exp"]
+                    }
+                },
+            {"filter":"datum.Gender==Gender1"}
+          ],
+            "params": [
+      {
+        "name": "Gender1",
+        "value": 1,
+        "bind": {
+          "input": "range",
+          "min": 1,
+          "max": 3,
+          "step": 1,
+          "name": "Select the Gender:"
+        }
+      }
+    ],
+  
+          "mark":{
+              "type":"geoshape",
+              
+              "stroke": "lightgrey",
+              "strokeWidth": 2
+          },
+  
+          "encoding":{
+            
+
+          
+              "tooltip":[{"field":"properties.name", "type": "nominal", "title": "Country"}, {"field":"Life exp"}],
+
+              
+                 "color":{
+                "field": "Life exp",
+                "type": "quantitative",
+                "scale":{"scheme":"greens"}
+          }
+          }
+          }

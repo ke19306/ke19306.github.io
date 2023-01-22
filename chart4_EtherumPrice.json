@@ -12,7 +12,7 @@
     "subtitleColor":"#179fdb"},
 
   "config": {
-    "background":"#122b39",
+    "background":"#ffffff",
     "view": {
       "stroke": "transparent"}},
  
@@ -31,7 +31,7 @@
     "type": "line",
     "point": false,
     "interpolate": "linear",
-    "color":"hotpink"
+    "color":"blue"
   },
 
   "transform": [
@@ -78,7 +78,7 @@
         "grid": false,
         "labelSeparation": 10,
         "domainColor":"dimgrey",
-        "labelColor":"#00a767",
+        "labelColor":"#000000",
         "tickColor":"pink",
         "gridColor":"dimgrey"
       }},
@@ -90,7 +90,7 @@
       "axis": {
         "grid": false,
         "domainColor":"dimgrey",
-        "labelColor":"#00a767",
+        "labelColor":"#000000",
         "tickColor":"pink",
         "gridColor":"dimgrey",
         "format":"$,.5"}

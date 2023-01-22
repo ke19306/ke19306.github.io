@@ -1,0 +1,61 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {
+      "url": "https://raw.githubusercontent.com/ke19306/ke19306.github.io/main/C_USA_Spe.csv"
+    },
+    "height": 280,
+    "width": 300,
+    "mark": {"type": "line", "size":2.5},
+    "encoding": {
+      "x": {
+        "field": "Year",
+        "type": "temporal",
+        "title": null,
+        "axis": {"grid": false, "labelAngle": 0}
+      },
+      "y": {
+        "field": "spending",
+        "type": "quantitative",
+        "title": null,
+        "scale": {"domain": [0,12000]},
+        "axis": {
+          "grid": true,
+          "labelFontSize": 12,
+          "title": "Healthcare expenditure per capita",
+          "titleAlign": "left",
+          "titleAngle": 0,
+          "titleBaseline": "bottom",
+          "titleColor": "#676A86",
+          "titleFontSize": 10,
+          "titleX": 5,
+          "titleY": 15
+        }
+      },
+      "color": {
+        "field": "Country Name",
+        "type": "nominal",
+        "sort": [],
+        "title": null,
+        "scale": {
+          "range": ["#e6224b", "#122b39", "#36b7b4", "#f4c245", "#00a767"]
+        },
+        "legend": {"orient": "bottom", "labelFontSize": 11}
+      },
+      "tooltip": [
+        {
+          "field": "Year",
+          "type": "temporal",
+          "title": "Date",
+          "timeUnit": "year"
+        },
+        {"field": "Country Name", "type": "nominal", "title": "Country"},
+        {
+          "field": "spending",
+          "type": "quantitative",
+          "title": "Healthcare expenditure per Capita"
+        },
+        {"field": "Life_Exp", "type": "quantitative", "title": "Life expectancy"}
+      ]
+    },
+    "autosize": {"type": "pad", "contains": "padding", "resize": true}
+  }

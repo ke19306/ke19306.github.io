@@ -1,8 +1,8 @@
 {"$schema": "https://vega.github.io/schema/vega-lite/v5.json",
 
   "title": {
-      "text": "ImF lending Outstanding ",
-      "subtitle":"Credit outstanding to all members, percentage of global GDP, Source: IMF",
+      "text": "IMF lending Outstanding ",
+      "subtitle":"Credit outstanding as a percentage of global GDP, Source: IMF",
       "subtitleFontStyle":"italic",
       "subtitleFontSize":10,
       "anchor": "start",
@@ -11,11 +11,11 @@
   "data":{"url": "https://raw.githubusercontent.com/ke19306/ke19306.github.io/main/IMF.csv"},
   
   "height": 300,
-  "width": 260,
+  "width": 300,
 
   "mark": {
     "type": "bar",
-    "color": "#86d0bb"},
+    "color": "rgb(0,47,164"},
 
 "encoding": {
      "x": {

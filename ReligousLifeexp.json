@@ -1,0 +1,81 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text":[ 
+      "Regression: Life expectancy On Healthcare spending as % of GDP"], 
+    
+    "fontSize":10,
+    "subtitle": "Source: Data.worldbank.org & Ourworldindata.org",
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start"
+
+    
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/ke19306/ke19306.github.io/main/Relig_Pop-2.csv"
+  },
+  "height": 300,
+  "width": 300,
+  
+   
+  
+    
+  "layer": [
+    {
+      "mark": {"type": "circle","color":"rgb(0,47,164)", "point": false, "clip": true, "opacity": 0.5},
+      "encoding": {
+        "x": {
+          "field": "Life_expectancy",
+          "type": "quantitative",
+          "title": "Life_Expectancy",
+          "axis": {"grid": false},
+          "scale": {"domain":[50,90]}
+          
+        },
+        "y": {
+          "field": "Feel_religious",
+          "type": "quantitative",
+          "title": "Feel_religious",
+          "axis": {"grid": false},
+          "scale": {"domain":[0,100]}
+           
+        },
+        "size":{
+          "field": "Country_population",
+          "type": "quantitative",
+          "scale":{"range": [20, 1000]},
+          "title": "Country Population",
+
+          "legend":null
+        },
+       
+        "tooltip": [
+          {
+            "field": "Life_expectancy",
+            "type": "quantitative",
+            "title": "%GDP spent on Healthcare"
+          },
+          {"field": "Feel_religious", "type": "quantitative", "title": "Life expectancy"},
+          {"field": "Country Name", "type": "nominal", "title":""},{"field":"Country_population","type": "quantitative", "title": "Country Population"}
+        ]
+      }
+    },
+    {
+      "mark": {"type": "line", "color":"black"},
+      "transform": [{"regression": "Life_expectancy", "on": "Feel_religious"}],
+      "encoding": {
+        "x": {"field": "Life_expectancy", "type": "quantitative"},
+        "y": {"field": "Feel_religious", "type": "quantitative"}
+      }
+    },
+    {
+      "transform": [
+        {"regression": "Life_expectancy", "on": "Feel_religious", "params": true},
+        {"calculate": "'R²: '+format(datum.rSquared, '.2f')", "as": "R2"}
+      ],
+      "mark": {"type": "text", "x": "width", "align": "right", "y": -5},
+      "encoding": {"text": {"type": "nominal", "field": "R2"}}
+    }
+  ]
+}
