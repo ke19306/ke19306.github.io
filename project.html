@@ -31,6 +31,13 @@
 
 
     <div class="myWeek1">
+        <div class="myWeek5">
+        <p>The aim of this project is to assess the differences in countries life expectancies 
+            across the globe and to then attempt to identify differing factors that affect these
+             life expectancy’s. Countries that rate similarly on the Human development Index do not
+             always necessarily have entirely similar life expectancy’s, I will attempt to identify some key factors 
+             as to why this is. I hope to conclude that there are some defining factors in the reasons for these differences, 
+             offering an insight into areas countries may need to explore in order to improve their life expectancy.</p>
     
        <h2>Comparing Global Life expectancy's</h2>
 
@@ -39,25 +46,72 @@
 
          
         <p>Health care spending</p>
-
-        <div class="mapchart" id="Hworldchart"></div>
+        <p>Before analysing variances in Life Expectancy I thought
+            it would be useful to create a map displaying variance in 
+        Life Expectancy across the globe </p>
 
         <h2>Global life expectancy </h2>
         <div class="mapchart" id="LEworldchart"></div>
+        <p class="rubric-launch"> <a class="textLink" href="https://colab.research.google.com/drive/1FdQAIngaSg4O9hQ9C7pBSkbrM6okK8U6?usp=sharing"> Collab</a> </p>
+
+
+        <div class="mapchart" id="Hworldchart"></div>
+
+     
 
         <h2>Correlation between healthcare spending
                 Life expectancy
         </h2>
         <div class="chart" id="LGDPchart"></div>
+        <p class="rubric-launch"> <a class="textLink" href="https://colab.research.google.com/drive/1q4QYc88ocYN-YZ_dyy2Ngt8ZGE-GUhH5?usp=sharing"> Collab</a> </p>
 
         <h3> China vs the usa</h3>
         <div class="chart" id="UScfinalchart"></div>
+        <p class="rubric-launch"> <a class="textLink" href="https://colab.research.google.com/drive/1hLMPtjEip2yFuEGh-089p4ClTEVRxkzT?usp=sharing"> Collab</a> </p>
+
+        <p>The differences in Healthcare spending between 
+            the Us and China but relative similarity in Life
+            Expectancy shows that there are other Factors at play.
+
+        </p>
 
         <h2> Pollution against Life Expectancy</h2>
         <div class="chart" id="polchart"></div>
+        <p class="rubric-launch"> <a class="textLink" href="https://colab.research.google.com/drive/1NUQgf7msewSpGdhDoSf5ckHJnyiG8BH7?usp=sharing"> Collab</a> </p>
+        <p>There is clear negative correlation between a countries
+            pollution levels and Life Expactancy. It
+            seems reasonable to assume this pollution aslo causation.
+        </p>
 
         <h3> Religion against Life Expectancy</h3>
         <div class="chart" id="religionchart"></div>
+        <p class="rubric-launch"> <a class="textLink" href="https://colab.research.google.com/drive/1JCVGlT5No3k-hZKloKNwJSMukdf6u08L?usp=sharing"> Collab</a> </p>
+
+        <p>There is also a clear negative correlation between how Religous
+            a country is on average and its Life Expectancy. However as less 
+            Developed country tend to be more religous and studied actually show that 
+            people who feel religous live for longer, this may not be causation.
+        </p>
+
+        <p>Both religion </p>
+
+
+        <p>For this Project I have used a variety of data. I have downloaded CSV files,
+            scraped API’s and…. Many of my charts contain multiple Datasets  that I have
+             merged on python. In doing this I came across multiple issues such as, differing
+            variable types, names and sizes. All of these issues I have dealt with by cleaning
+             the data in Python. I used data from world population review for my Life expectancy.
+            I initially cleaned this in excel before using python to convert it into long form,
+            in order to present the differences between male and female life countries for each country.
+            Due to the wide accessibility of the data I needed, accessing API’s was widely unnecessary.
+             However, for my graph that looks into the effects of religion on Life expectancy.
+             I scraped data using pandas and requests in order to scrape the table I required.</p>
+
+        <h3>Conclusion</h3>
+        <p></p>
+
+        </div>
+        </div>
 
 
 
