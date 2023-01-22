@@ -5,9 +5,15 @@
     "height": 300,
 
     "title": {
-        "text": "World Map",
+        "text": ["World Map"],
         "anchor": "start",
-        "color": "black"},
+        "color": "black",
+        "fontSize":12,
+        "subtitle": "Source: Data.worldbank.org & Ourworldindata.org",
+        "subtitleFontStyle": "Arial",
+        "subtitleFontSize": 10
+        
+    },
   
     "data":{
       "url": "https://raw.githubusercontent.com/ke19306/ke19306.github.io/main/worldmap.json",

@@ -52,7 +52,7 @@
             "title": "Life expectancy"
           },
           {"field": "Country Name", "type": "nominal", "title": ""},
-          {"field": "Population22", "type":"quantitative", "title":"Country Name"}
+          {"field": "Population22", "type":"quantitative", "title":"Population"}
         ]
       }
     },

@@ -4,7 +4,7 @@
       "url": "https://raw.githubusercontent.com/ke19306/ke19306.github.io/main/data_ONS-ANNT.json",
     "format": {"type":"json", "property": "years"}},
     "title": {
-      "text": "U.K Net Investment",
+      "text": "UK Net Investment",
       "subtitle": "LG:£M, Source: ONS",
       "subtitleFontStyle": "italic",
       "subtitleFontSize": 10,

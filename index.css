@@ -10,13 +10,14 @@ body{
 /* Choose the appearance of the tags, h1, h3 and p: */
 h1, h3, p{
     color:rgb(0, 47, 167);
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Arial';
     text-align: center;
+    font-size: 12
 }
    
 h2{
     color:rgba(0, 47, 167);
-    font-family: 'Roboto", sans-serif';
+    font-family: 'Arial';
     text-align: center;
 
     
@@ -169,6 +170,32 @@ h2{
   border-style: solid;
   border-radius: 1px;
   border-color: rgb(5, 93, 161);
+}
+@media screen and (max-width: 500px) {
+   
+  .myWeek1 { width: 450px}
+  .container {columns: 1 !important; grid-template-columns: 100% !important; 
+    text-align: center;}
+    h1, h2, h3, p{
+      font-size: smaller;
+    }
+
+    .container_grid {
+      display: flex;
+        justify-content: center;
+        align-content: center;
+      grid-template-columns: 100%;
+          margin: 0 auto 0 auto !important;
+        padding: 0 5 0 5; 
+          grid-column-gap: 20px;
+          grid-row-gap: 50px;
+          column-count: 1 !important;
+        
+    }
+  .myWeek5 {width:450px;}
+  .chart {width:300px;}
+  .chart2{width:300px;}
+  .chart3{width:300px;}
 }
 
 

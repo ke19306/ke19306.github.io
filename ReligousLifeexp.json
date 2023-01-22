@@ -54,9 +54,9 @@
           {
             "field": "Life_expectancy",
             "type": "quantitative",
-            "title": "%GDP spent on Healthcare"
+            "title": "Life_expectancy"
           },
-          {"field": "Feel_religious", "type": "quantitative", "title": "Life expectancy"},
+          {"field": "Feel_religious", "type": "quantitative", "title": "Feel_religous"},
           {"field": "Country Name", "type": "nominal", "title":""},{"field":"Country_population","type": "quantitative", "title": "Country Population"}
         ]
       }

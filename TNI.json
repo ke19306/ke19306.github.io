@@ -5,7 +5,7 @@
       "url": "https://raw.githubusercontent.com/ke19306/ke19306.github.io/main/data_ONS-ANNS.json",
     "format": {"type":"json", "property": "years"}},
     "title": {
-      "text": "Net Investment",
+      "text": "UK Net Investment",
       "subtitle": "U.K CG: £M, Source: ONS",
       "subtitleFontStyle": "italic",
       "subtitleFontSize": 10,
