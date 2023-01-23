@@ -71,16 +71,16 @@
         </p>
 
         <p>The disparity between the US and China led me to investigate the relationship in both countries further. </p>
-        <h3> China vs the myUScfinalchart</h3>
+        <h3> China vs the US timeseries</h3>
         <div class="chart" id="UScfinalchart"></div>
         <p class="rubric-launch"> <a class="textLink" href="https://colab.research.google.com/drive/1hLMPtjEip2yFuEGh-089p4ClTEVRxkzT?usp=sharing"> Collab</a> </p>
-        <p>I decided to compare Per Capita Healthcare Spending with Life Expectancy in both countries over time. This meant I had to repeat my data cleaning and merging process. When producing this graph I came across some issues with the layer encoding that i was able to sort by reordering some of my code.</p>
+        <p>I decided to compare Per Capita Healthcare Spending with the Life Expectancy of both countries over time. This meant I had to repeat my data cleaning and merging process. When producing this graph I came across some issues with the layer encoding that i was able to sort by reordering some of my code.</p>
         <p>I feel this is a really useful graph as it shows a consistently large difference in healthcare spending per capita but converging Average Life Expectancies, with little difference in 2019. </p>
 
         
 
         <p>This motivated me to investigate other potential reasons for the differences in countries average life expectancy.</p>
-        <p>I first combined my master data with a cleaned dataset containing countries pollution levels. I felt it would be useful to also display the population size of each country, with opacity allowing for denser areas of the graph to be darker. </p>
+        <p>I first combined my master data with a cleaned dataset containing countries pollution levels. I felt it would be useful to also display the population size of each country, with opacity allowing for denser areas to show larger denser populations. </p>
 
         <h2> Pollution against Life Expectancy</h2>
         <div class="chart" id="polchart"></div>
@@ -97,8 +97,8 @@
         
 
         <p>The graph shows there is also a clear negative correlation between how religous
-            a country is on average and its Life Expectancy. However as less 
-            Developed countries tend to be more religous and with studies showing that 
+            a country is on average and its average Life Expectancy. However as less 
+            developed countries tend to be more religous and with studies showing that 
             people who feel religous live for longer, this may only be correlation and not causation.
         </p>
 
@@ -108,10 +108,11 @@
         <p> Due to the wide accessibility of the data I needed, accessing API’s was widely unnecessary.</p>
 
         <h3>Problems with data and graphs</h3>
-        <p>For my first graph I attempted to use additional data containing the life expectancy of males and females . I created a dummy variable for males, females and combined average Life Expectancy but when adding the encoding for the slider I was met with a consistent error that i couldnt fix.</p>
-        <p>I also dealt with data sets for male and female alcohol consumpiton, however when producing graphs there was no clear message, so i didn't  include them. </p>
+        <p>For my first graph I attempted to use additional data containing the life expectancy of males and females . I created a dummy variable for males, females and combined average Life Expectancy but when adding the encoding for the slider I was met with a consistent error that I was unable to fix.</p>
+        <p>I also scraped and cleaned data sets for male and female alcohol consumpiton, however when producing graphs there was no clear message so I
+        I chose not to   include them. </p>
 
-        <p>I also attempted to use beautiful soup in order to scrape lists of countries in accordance to their Healthcare systems. This proved difficult due to the list formating of the data and i was unsuccessful in doing so. </p>
+        <p>I also attempted to use beautiful soup in order to scrape lists of countries in accordance to their Healthcare systems. This proved difficult due to the list formating of the data and I was therefore unsuccessful in doing so. </p>
         <p class="rubric-launch"> <a class="textLink" href="https://colab.research.google.com/drive/1JCVGlT5No3k-hZKloKNwJSMukdf6u08L?usp=sharing"> Collab</a> </p>
 
 
@@ -119,7 +120,7 @@
         
 
         <h3>Conclusion</h3>
-        <p>I have concluded that although healthcare spending  is correlated with the average life expectancy of a country, it is the not the only significant factor. Pollution and Religion also appear to have signifcant relationships with life expectancy.
+        <p>I have concluded that although healthcare spending is correlated with the average life expectancy of a country, it is the not the only significant factor. Pollution and Religion also appear to have signifcant relationships with life expectancy.
              When carrying on this research it would be useful to carry out further regressions accounting for multiple variables in order to specify the effect of changes in specific factors. There are also mulitple other factors i would wish to explore further such as population demographics and Healthcare systems. </p>
 
         </div>
