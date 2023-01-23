@@ -2,7 +2,7 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": {
     "text":[ 
-      "Regression: Life expectancy On Healthcare spending as % of GDP"], 
+      "Regression: Life expectancy how religous the average person feels in a Country"], 
     
     "fontSize":10,
     "subtitle": "Source: Data.worldbank.org & Ourworldindata.org",
