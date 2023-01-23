@@ -33,25 +33,25 @@
     <div class="myWeek1">
 
         <h2>Question</h2>
-        Is there a definite correlation between a countries Healthcare spending(as a % of GDP and its avergage Life Expectancy)? If this is isnt always the case, what are some of the causes for these deviations?
+        Is there a definite correlation between a countries Healthcare spending(as a % of GDP) and its avergage Life Expectancy? If this is isn"t always the case, what are some of the causes for these deviations?
         <div class="myWeek5">
         <p>The aim of this project is to identify whether there is a relationship between a countries life expectancy
             and its healthcare spending.  I will then attempt to identify some key factors 
              as to why this is. I hope to conclude that there are some defining factors in the reasons for these differences, 
              offering an insight into areas countries may need to explore in order to improve their nations life expectancy.</p>
     
-       <h2>Comparing Global Life expectancy's</h2>
+       <h2>Comparing Global Life expectancies</h2>
 
          
         <p>Health care spending</p>
-        <p>Before analysing the the relationship between spending and Life Expectancy I thought
-            it would be useful to create a map displaying the variances in 
+        <p>Before analysing the relationship between healthcare spending and average life expectancy I thought
+            it would be useful to create a maps displaying the disparities in 
         both across the globe </p>
 
         <h2>Global life expectancy </h2>
         <div class="mapchart" id="LEworldchart"></div>
         <p class="rubric-launch"> <a class="textLink" href="https://colab.research.google.com/drive/1FdQAIngaSg4O9hQ9C7pBSkbrM6okK8U6?usp=sharing"> Collab</a> </p>
-        <p>I have used this data for Life Expectancy as my master dataset, merging it with multiple other datasets in order to draw further conclusions</p>
+        <p>I have used this data for Life Expectancy as my master dataset, merging it with multiple other datasets in order to draw further conclusions.</p>
 
 
         <div class="mapchart" id="Hworldchart"></div>
@@ -63,17 +63,19 @@
         <h2>Correlation between healthcare spending and
                 life expectancy
         </h2>
-        <p>I then went on to combine these datasets and run a regression. In order ro do this I first cleaned each dataset in excel and python, ensuring variable names, varibale types and country names were indentical. I then converted the data sets into TIDY format before merging them on the varibale 'country name' and further cleaning the dataset. </p>
+        <p>I then went on to combine these datasets and run a regression. In order to do this I first cleaned each dataset in excel and python, ensuring variable names, varibale types and country names were identical. I then converted the data 
+            sets into TIDY format before merging them on the variable 'country name' and then  cleaning the new dataset. </p>
         <div class="chart" id="LGDPchart"></div>
         <p class="rubric-launch"> <a class="textLink" href="https://colab.research.google.com/drive/1q4QYc88ocYN-YZ_dyy2Ngt8ZGE-GUhH5?usp=sharing"> Collab</a> </p>
-        <p>The regression showed that there is a positive relationsip, however, it was not as strong as I would expecrt and there were clear outliers.</p>
+        <p>The regression showed that there is a positive relationsip, however, it was not as strong as anticpated and the data consistent of multiple outliers.
+        </p>
 
-        <p>The disparity between the US and China lead me to investigate the relationship in both countries further. </p>
-        <h3> China vs the usa</h3>
+        <p>The disparity between the US and China led me to investigate the relationship in both countries further. </p>
+        <h3> China vs the myUScfinalchart</h3>
         <div class="chart" id="UScfinalchart"></div>
         <p class="rubric-launch"> <a class="textLink" href="https://colab.research.google.com/drive/1hLMPtjEip2yFuEGh-089p4ClTEVRxkzT?usp=sharing"> Collab</a> </p>
-        <p>I decided to compare Per capita Healthcare spending with Life Expectancy in both countries other time. This meant I had to repeat my data cleanign and merging process. When producing this graph I came across some issues with the layer encoding that i was ablee to sort by reordering some of my code.</p>
-        <p>I feel this is I really useful graph as it shows a consistently large difference in Healthcare spending per capita but converging Average Life Expectancy's, with little difference in 2020. </p>
+        <p>I decided to compare Per Capita Healthcare Spending with Life Expectancy in both countries over time. This meant I had to repeat my data cleaning and merging process. When producing this graph I came across some issues with the layer encoding that i was able to sort by reordering some of my code.</p>
+        <p>I feel this is a really useful graph as it shows a consistently large difference in healthcare spending per capita but converging Average Life Expectancies, with little difference in 2019. </p>
 
         
 
@@ -85,7 +87,7 @@
         <p class="rubric-launch"> <a class="textLink" href="https://colab.research.google.com/drive/1NUQgf7msewSpGdhDoSf5ckHJnyiG8BH7?usp=sharing"> Collab</a> </p>
         <p>There is clear negative correlation between a countries
             pollution levels and life expectancy. It
-            seems reasonable to assume that pollution may lead to decreasing life expectancy's
+            seems reasonable to assume that pollution may lead to decreasing life expectancies.
         </p>
 
         <h3> Religion against Life Expectancy</h3>
@@ -94,10 +96,10 @@
         <p class="rubric-launch"> <a class="textLink" href="https://colab.research.google.com/drive/1JCVGlT5No3k-hZKloKNwJSMukdf6u08L?usp=sharing"> Collab</a> </p>
         
 
-        <p>The graph shows there is also a clear negative correlation between how Religous
+        <p>The graph shows there is also a clear negative correlation between how religous
             a country is on average and its Life Expectancy. However as less 
-            Developed country tend to be more religous and studied actually show that 
-            people who feel religous live for longer, this may not be causation.
+            Developed countries tend to be more religous and with studies showing that 
+            people who feel religous live for longer, this may only be correlation and not causation.
         </p>
 
        
@@ -106,10 +108,10 @@
         <p> Due to the wide accessibility of the data I needed, accessing API’s was widely unnecessary.</p>
 
         <h3>Problems with data and graphs</h3>
-        <p>For my first graph I attempted to use addition data containing the life expectancy of males and females . I created a dummy variable for males, females and combined average Life Expectancy but when adding the encoding for the slider I was met with a consistent error that i couldnt fix.</p>
-        <p>I also dealt with data sets for male and female alcohol consumpiton, however when producing graphs there was no clear message so i didn't not to include them. </p>
+        <p>For my first graph I attempted to use additional data containing the life expectancy of males and females . I created a dummy variable for males, females and combined average Life Expectancy but when adding the encoding for the slider I was met with a consistent error that i couldnt fix.</p>
+        <p>I also dealt with data sets for male and female alcohol consumpiton, however when producing graphs there was no clear message, so i didn't  include them. </p>
 
-        <p>I also attempted to use beautiful soup in order to scrape lists of countries in accordance to their Healthcare systems. This prove difficult due to the list formating of the data and i was unsuccessful in doing so </p>
+        <p>I also attempted to use beautiful soup in order to scrape lists of countries in accordance to their Healthcare systems. This proved difficult due to the list formating of the data and i was unsuccessful in doing so. </p>
         <p class="rubric-launch"> <a class="textLink" href="https://colab.research.google.com/drive/1JCVGlT5No3k-hZKloKNwJSMukdf6u08L?usp=sharing"> Collab</a> </p>
 
 
