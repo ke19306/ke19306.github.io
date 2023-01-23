@@ -21,7 +21,7 @@
         "axis": {
           "grid": true,
           "labelFontSize": 12,
-          "title": "Healthcare expenditure per capita",
+          "title": "US China timeseries",
           "titleAlign": "left",
           "titleAngle": 0,
           "titleBaseline": "bottom",

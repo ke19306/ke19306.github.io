@@ -2,7 +2,7 @@
     "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "title": {
       "text":[ 
-        "Regression: Life expectancy On Healthcare spending as % of GDP"], 
+        "China and US timeseries"], 
       
       "fontSize":10,
       "subtitle": "Source: Data.worldbank.org",
